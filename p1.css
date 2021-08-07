@@ -1,0 +1,46 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.main
+{
+    padding:10px;
+    margin: 10px;
+    background-color: pink;
+}
+#btn-top
+{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+#box
+{
+    background: blue; 
+    height: 200px; 
+    width: 100px; 
+    margin: 6px;
+}
+#password
+{
+    border: solid 2px black;
+    padding: 10px;
+    min-width: 500px;
+    font-size: 1.5rem;
+
+}
+ #eye
+{
+    cursor: pointer;
+    font-size: 2rem;
+    top: 50%;
+} 

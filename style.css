@@ -1,0 +1,436 @@
+ body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-content
+{
+  background-image: url(./Rectangle-1-copy-7.jpg);
+  margin-bottom: auto;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+   
+}
+
+.mrgin-10{
+  margin-top: 10rem;
+}
+
+.navbar-nav
+{
+  margin-left: auto;
+}
+
+.bg-pricing{
+  margin-bottom: 50px;
+  padding-top: 15px;
+  height: 100vh;
+}
+
+.bg-card{
+  color: white;
+  margin-top: 8rem;
+}
+
+.front-content{
+  background: none;
+  border:none;
+  color: white;
+  text-align: justify;
+  border: none;
+}
+.card-start{
+height: 80px;
+width: 50px;
+border:2px solid rgb(162, 0, 255);
+border-radius:10px;
+text-align: center;
+font-size: 30px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+.head{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* .card1{
+  border: none;
+} */
+.mrgin-left-auto{
+  margin-left: auto;
+}
+.card3{
+margin-right:70px;
+padding-right:70px;
+border-right:70px;
+}
+.card-mind{
+margin-left:25px;
+border-left:25px;
+padding-left:25px;
+}
+.marketing{
+padding-top:50px;
+padding-bottom:50px;
+}
+.card2{
+  border: none;
+}
+.company-goal{
+padding-top:8%;
+text-align:right-side;
+}
+.company-goal-font{
+font-family:40px !important;
+}
+.spacing-serv{
+padding-top:20px;
+}
+.serv-content{
+  text-align: center;
+}
+.icon{
+  color: blue;
+  border-bottom: none;
+font-size:30px;
+  
+}
+.p.small {
+line-height: 0.7;
+}
+.style-idea
+{
+  color: rgb(132, 0, 255);
+   margin: -10px;
+   font-size: 20px;
+}
+.ideas{
+color:blue;
+font-size: 20px;
+}
+.services-we-can{
+  margin-bottom: 100px;
+font-size:55px;
+}
+.card_body{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.bg-services{
+  margin-bottom: 50px;
+  padding-top: 15px;
+  height: 100vh;
+}
+#video-introduction {
+  display:flex;
+  justify-content:center;
+  height:100vh;
+  background-image:url("./Rectangle-532-copy.jpg");
+  background-position:center;
+  background-size:cover;
+  
+  margin-bottom:173px;
+}
+.container-video-introduction { 
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.video-introduction-body { 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.video-introduction-body-play img{ 
+  height:40px;
+}
+.video-introduction-body-title { 
+  margin-top:54px;
+  max-width:440px;
+  color:#FFF;
+  font-size:48px;
+  font-weight:lighter;
+  text-align:center;
+}
+.video-introduction-body-sub {
+  margin-top:32px;
+  color:#FFF;
+  font-size:20px;
+  font-weight:lighter;
+}
+
+.play-icon{
+  color: white !important;
+  font-size: 45px !important;
+}
+.contact-us-content{
+  margin-top: 15%;
+  color: white;
+  text-align: center;
+}
+.font-size{
+  font-size: 40px;
+}
+.card_body{
+  border: none;
+}
+#pricing {
+  display:flex;
+  justify-content:center;
+  margin-bottom:192px;
+}
+
+.check-out{
+  font-size: 40px;
+}
+
+.check-content{
+  text-align: justify;
+  padding-top: 20%;
+  border: none;
+  border-color: white;
+  
+}
+.startup{
+  text-align: justify;
+  background-color: #F7F5FF;
+  color:black;
+  border-radius: 12px;
+  border: 2px;
+padding-top:50px;
+padding-bottom:50px;
+
+}
+.text-decor
+{
+  text-decoration: blue;
+}
+.business{
+  border: 3px solid blue;
+  border-radius: 10px;
+padding-top:50px;
+padding-bottom:50px;
+height: 100%;
+}
+.last-content{
+background-image: url("./Rectangle-534-copy.jpg");
+height: 100vh;
+background-size:cover;
+margin-bottom: 0px;
+padding-top:40px;
+}
+.icon-padding{
+padding-right:15px;
+}
+.footer{
+  background-color: black;
+}
+.footer-content{
+  color: white;
+  
+  
+}
+.footer-line{
+  color: white;
+}
+.footer-link{
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.purchase-btn {
+  background-color: blue;
+  border-radius: 2px;
+}
+.style-footer
+{
+  margin-left:25px;
+}
+.p-style
+{
+  
+  font-size: 24px;
+}
+.h1-style
+{
+  font-size: 88px;
+  font-weight: 200;
+  margin-top: -2rem;
+}
+
+/* MEDIA-QUERY for TABLET FOR-768 PIXEL */
+@media (max-width: 768px)
+{
+  /* .last-spacing
+  {
+    
+  } */
+  .bg-services
+  {
+    height: 80vh;
+  }
+  .video-introduction-body-play
+  {
+    margin-top: 450px;
+  }
+  #img1
+  {
+width: 98%;
+margin-top: 5rem;
+  }
+  #img2
+  {
+    width: 98%;
+    margin-top: 5rem;
+  }
+body
+{
+overflow-x: hidden;
+background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto !important;
+}
+  .bg-card
+  {
+    margin-top: 3rem;
+  }
+	.p-style{
+    font-size: 20px;
+  }
+  .h1-style
+{
+  font-size: 64px;
+}
+.bg-content
+{
+  background-image: url(./Rectangle-1-copy-7.jpg);
+    height: 90vh;
+    background-position: center;
+   
+}
+.bg-pricing{
+  margin-bottom: 50px;
+  padding-top: 15px;
+  height: 100vh;
+}
+.check-out{
+  font-size: 22px;
+  margin-top: -30px;
+
+}
+
+}
+.services-height
+{
+  height: 150vh;
+}
+
+
+ul { 
+  padding:0;
+  margin:0;
+  line-height:40px;
+  list-style:none;
+  margin-bottom:48px;
+}
+button { 
+  width:174px;
+  height:60px;
+  color:#09080d;
+  font-size:14px;
+  border-radius:4px;
+  border:2px solid #2b1fff;
+  background-color:#f7f6fe;
+}
+.pricing-options .active{ 
+  margin-left:25px;
+  border-radius:8px;
+  background-color:#FFF;
+  border:2px solid #2e1dff;
+}
+.pricing-options .active button { 
+  color:#FFF;
+  background-color:#2e1dff;
+}
+
+/* MEDIA-QUERY-FOR- mobile_phone_375 PIXEL */
+@media(max-width:375px)
+{
+  .btn-content1
+  {
+    width: 70px;
+    height: 50px;
+  }
+  .services-height
+  {
+    height: 100%;
+  }
+  .play-icon{
+    padding-top: 0;
+  }
+  #video-introduction
+  {
+    margin-top: 36rem;
+  }
+  #img1
+  {
+    width: 250px;
+    height: 300px;
+    padding-right: 120px;
+  }
+  #img2
+  {
+    padding-left: -100px;
+    width: 150px;
+    height: 200px;
+  }
+  .bg-services
+  {
+    height: 100vh;
+    margin-top: 20px;
+  }
+  .bg-content
+{
+  
+  margin-bottom: auto;
+    height: 170vh;
+    background-position: center;
+    background-size:cover;
+   
+}
+  .bg-card
+  {
+    margin-top: 2rem;
+  }
+  
+.p-style{
+  /* margin-top: -50rem; */
+  font-size: 30px;
+}
+.h1-style
+{
+font-size: 40px;
+}
+
+.bg-pricing{
+  margin-bottom: 50px;
+  padding-top: -10px;
+  height: 200vh;
+}
+.check-out{
+  font-size: 50px;
+  margin-top: 0px;
+}
+.mrgin-10{
+  margin-top: 10rem;
+}
+}
+

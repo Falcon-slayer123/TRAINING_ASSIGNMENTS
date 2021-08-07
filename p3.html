@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_Assignement_Me</title>
+    <link rel="stylesheet" href="p3.css" />
+  </head>
+  <body>
+    <!-- Question-1 -->
+    <div class="q-1">
+      <h1>Password Check</h1>
+      <table border="0" cellpadding="3" cellspacing="0">
+        <tr>
+          <td>Password:</td>
+          <td>
+            <input type="password" id="txtPassword" />
+          </td>
+        </tr>
+        <tr>
+          <td>Confirm Password:</td>
+
+          <td>
+            <input type="password" id="txtConfirmPassword" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="button" id="btnSubmit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- Question-2 -->
+    <div class="q-2">
+      <center><h1>Auto-fill</h1></center>
+      <label>Firstname<span class="small"></span> </label>
+      <input
+        type="text"
+        name="artistfield_fname"
+        id="Artist_fname"
+        onkeyup="SetFullName()"
+      />
+
+      <label>Last_Name<span class="small"></span></label>
+      <input type="text" name="artistfield_fullname" id="Artist_fullname" />
+    </div>
+
+    <!-- Question-3 -->
+    <div class="q-3">
+      <h1>Number Table</h1>
+      <p>
+        <label for="num">Multiplication Table</label>
+        <input type="number" name="num" id="num" />
+      </p>
+      <p id="table-num"></p>
+      <button id="btn-tab" class="btn btn-dark">
+        Calculate the Multiplication
+      </button>
+    </div>
+    <!-- JAVA_SCRIPTS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+      integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="./jq.js"></script> -->
+    <!-- Function for 2nd Question -->
+    <script>
+      function SetFullName() {
+        document.getElementById("Artist_fullname").value = "";
+        document.getElementById("Artist_fullname").value =
+          document.getElementById("Artist_fname").value;
+      }
+      $(function () {
+        $("#btnSubmit").click(function () {
+          var password = $("#txtPassword").val();
+          var confirmPassword = $("#txtConfirmPassword").val();
+          if (password != confirmPassword) {
+            alert("Passwords do not match.");
+          } else alert("Password_Matched");
+        });
+      });
+      $("#btn-tab").click(() => {
+        var n1 = $("#num").val();
+        for (let i = 1; i <= 10; i++) {
+          $("#table-num").append("<p>" + n1 * i + "</p>");
+        }
+      });
+    </script>
+  </body>
+</html>
